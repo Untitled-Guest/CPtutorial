@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie');
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift');
 @import url('https://fonts.googleapis.com/css2?family=Arimo');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 
 * {
   box-sizing: border-box;
-  font-family: 'Arimo';
+  font-family: 'Inter';
+  line-height: 1.6;
 }
 
 body {
@@ -12,10 +14,20 @@ body {
   color: black;
   width: 100%;
   margin: 0;
+  font-size: 16px;
 }
 
 h1 {
   font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  /* transform: translateY(-4px); */
 }
 
 a {
@@ -64,7 +76,7 @@ header > nav > div > a > span {
 }
 
 .banner-text {
-  max-width: 400px;
+  max-width: 600px;
   display: inline-block;
   vertical-align: middle;
   text-align: left;
@@ -108,8 +120,7 @@ header > nav > div > a > span {
 .content-img-cont {
   height: fit-content;
   width: auto;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
   margin: 10px;
 }
 
@@ -129,28 +140,43 @@ header > nav > div > a > span {
 }
 
 .content-text {
-  max-width: 400px;
+  max-width: 450px;
   display: inline-block;
-  vertical-align: middle;
-  text-align: right;
-  margin-right: 3%;
-  vertical-align: middle;
+  vertical-align: top;
+  text-align: left;
+  padding: 20px 30px;
+  margin: 30px 25px 0 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
 }
 
-.content-title {
+.right-aligned {
+  text-align: right;
+}
+
+.content-title-cont {
   margin: 0 0 30px 0;
-  height: fit-content;
   width: 100%;
+}
+
+/* .content-title-cont-1 {
+  vertical-align: bottom;
+  height: 100px;
+  background-color: blue;
+} */
+
+.content-title {
+  margin: 0;
+  font-size: 32px;
 }
 
 .content-desc {
   margin: 0 0 10px 0;
-  max-height: 20em;
   width: 100%;
 }
 
 .main-content-title {
-  margin: 30px 0;
+  margin: 30px 0 0 0;
   text-align: center;
 }
 
