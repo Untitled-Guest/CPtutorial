@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift');
+@import url('https://fonts.googleapis.com/css2?family=Arimo');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+* {
+  font-family: 'Inter';
+  line-height: 1.4;
+}
+
+body {
+  background-color: white;
+  color: black;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  height: fit-content;
+}
+
+.body-cont {
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(60, 80, 225);
+  margin: 0;
+}
+
+header > nav {
+  margin: 0;
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+header > nav > div > a {
+  margin: 10px 20px;
+  color: white;
+}
+
+header > nav > div > a > span {
+  margin-left: 10px;
+}
+
+.left-header-nav {
+  text-align: left;
+  width: 100%;
+  display: inline-flex;
+  overflow-x: hidden;
+  /* float: left; */
+}
+
+.side-progress {
+  width: 60px;
+  height: 100%;
+  display: inline-block;
+  background-color: black;
+}
+
+/* Testings */
+
+.test-div {
+  background-color: gray;
+  width: 400px;
+  height: 200px;
+}
