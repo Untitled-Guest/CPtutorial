@@ -96,7 +96,7 @@ header > nav > div > a > span {
 
 .code-spaces {
   overflow-x: scroll;
-  width: 258px;
+  width: 250px;
   height: 100%;
   background-color: yellow;
   /* display: none; */
