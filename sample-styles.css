@@ -89,14 +89,14 @@ header > nav > div > a > span {
 }
 
 .statements {
-  width: 500px;
+  width: 430px;
   height: 100%;
   background-color: blue;
 }
 
 .code-spaces {
   overflow-x: scroll;
-  width: 300px;
+  width: 258px;
   height: 100%;
   background-color: yellow;
   /* display: none; */
