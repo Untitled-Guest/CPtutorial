@@ -1,19 +1,19 @@
 function doresize() {
     var codingspace = document.getElementById('coding-space');
     var positionInfo = codingspace.getBoundingClientRect();
-    var height = positionInfo.height;
+    var height1 = positionInfo.height;
     var width1 = positionInfo.width;
     var workspace = document.getElementById('work-space');
     var positionInfo = workspace.getBoundingClientRect();
-    var height = positionInfo.height;
+    var height2 = positionInfo.height;
     var width2 = positionInfo.width;
     var statementspace = document.getElementById('statement-space');
     var positionInfo = statementspace.getBoundingClientRect();
-    var height = positionInfo.height;
+    var height3 = positionInfo.height;
     var width3 = positionInfo.width;
     var datext = document.getElementById('TEXT');
     let x = " NO";
-    if (width1+width3 > width2) {
+    if (width1+width3 > width2+0.5) {
         x = " YES";
         codingspace.style.height = "50%";
         statementspace.style.height = "50%";
