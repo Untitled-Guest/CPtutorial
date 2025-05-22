@@ -14,7 +14,7 @@ body {
   width: 100%;
   margin: 0;
   font-size: 16px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 a {
@@ -63,7 +63,13 @@ header > nav > div > a > span {
   height: 100%;
   max-height: calc(100vh - 24px - 2*5px - 2*10px - 9px);
   background-color: black;
-  overflow-y: scroll;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.side-progress::-webkit-scrollbar {
+  display: none;
 }
 
 .body-cont {
