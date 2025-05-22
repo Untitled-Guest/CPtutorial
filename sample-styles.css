@@ -23,7 +23,6 @@ body {
 
 .main-cont {
   background-color: aquamarine;
-  flex-direction: row;
   width: 100%;
 }
 
@@ -68,9 +67,35 @@ header > nav > div > a > span {
 
 .side-progress {
   width: 60px;
+  min-width: 60px;
   height: 100%;
-  display: inline-block;
   background-color: black;
+  overflow-y: scroll;
+}
+
+.statements {
+  width: 500px;
+  min-width: 300px;
+  height: 100%;
+  background-color: blue;
+}
+
+.code-spaces {
+  overflow-x: scroll;
+  width: 300px;
+  height: 100%;
+  background-color: yellow;
+}
+
+.work-cont {
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.side-icon {
+  width: 36px;
+  margin: 12px;
+  border-radius: 18px;
 }
 
 /* Testings */
