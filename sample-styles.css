@@ -80,7 +80,6 @@ header > nav > div > a > span {
   /* width: calc(100vw - 60px); */
   /* flex: 1 1 auto;
   flex-wrap: wrap; */
-  align-items: stretch;
 }
 
 .statements {
