@@ -11,10 +11,9 @@
 body {
   background-color: white;
   color: black;
-  width: 100%;
   margin: 0;
   font-size: 16px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
@@ -78,7 +77,10 @@ header > nav > div > a > span {
 
 .main-cont {
   background-color: aquamarine;
-  width: calc(100vw - 60px);
+  /* width: calc(100vw - 60px); */
+  /* flex: 1 1 auto;
+  flex-wrap: wrap; */
+  align-items: stretch;
 }
 
 .statements {
@@ -88,16 +90,18 @@ header > nav > div > a > span {
   background-color: blue;
 }
 
+.work-cont {
+  background-color: aquamarine;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+
 .code-spaces {
   overflow-x: scroll;
   width: 300px;
+  min-width: none;
   height: 100%;
   background-color: yellow;
-}
-
-.work-cont {
-  background-color: aquamarine;
-  width: 100%;
 }
 
 .side-icon {
